@@ -14,16 +14,10 @@ class Person(baseModel):
     tablename = "Person"
     fields = ("name", "address")
 
-    def __init__(self):
-        pass
-
 class Vehicle(baseModel):
     base_model = base
     tablename = "Vehicle"
     fields = ("name", "speed")
-
-    def __init__(self):
-        pass
 
 class Model(baseModel):
     base_model = base
