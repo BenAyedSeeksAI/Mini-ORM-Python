@@ -25,7 +25,10 @@ class Vehicle(baseModel):
     def __init__(self):
         pass
 
+class Model(baseModel):
+    base_model = base
+    tablename = "Model"
+    fields = ("field_1", "field_2")
 
-model_list = [Person,
-              Vehicle,
+model_list = [Model,
               ]
