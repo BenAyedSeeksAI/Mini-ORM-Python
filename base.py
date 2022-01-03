@@ -8,11 +8,6 @@ class MetaModel(type):
 class baseModel(metaclass=MetaModel):
     tablename = ""
 
-model_list = []
-
-
-
-
 
 class Person(baseModel):
     base_model = base
