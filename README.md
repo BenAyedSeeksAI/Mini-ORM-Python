@@ -18,11 +18,11 @@ In the same file you need to add the model into your the python list model_list:
 model_list = [Model,
               ]
 ```
->To make a migration you need to execute this following command:
+To make a migration you need to execute this following command:
 ```bash
 python migrate_manager.py migrate
 ```
->The following output in the command prompt will show up to confirm the successful migration:
+The following output in the command prompt will show up to confirm the successful migration:
 ```bash
 Begin database Migration ...
 
