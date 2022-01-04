@@ -1,8 +1,8 @@
 # Mini-ORM-Python
 A simple ORM to migrate data models into an Sqlite3 database, I used sqlite3 python library. 
-#Notice 
+# Notice 
 This project is still under development. So further changes will come up Insha2allah.
-#Usage
+# Usage
 All you need to do is to define a base model class in the [base.py](https://github.com/BenAyedSeeksAI/Mini-ORM-Python/blob/main/base.py) file. of course you need to specify the
 table name of the model and its fields. the class inherits from baseModel.
 ```python
