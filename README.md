@@ -1,5 +1,6 @@
 # Mini-ORM-Python
-A simple ORM to migrate data models into an Sqlite3 database, I used sqlite3 python library. 
+A simple ORM to migrate data models into an Sqlite3 database, I used sqlite3 python library.
+Please, check this [hackernoon](https://hackernoon.com/build-your-own-orm-from-scratch-with-python) article to explain more the project in detail
 # Notice 
 This project is still under development. So further changes will come up Insha2allah.
 # Usage
